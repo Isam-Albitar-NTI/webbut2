@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzlet</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Quizzlet</h1>
+    </header>
+    <main>
+        <form>
+            <div class="question">
+                <p>Vem är CEO för Tesla?</p>
+                <label>
+                    <input type="radio" name="question1" data-points="0"> Steve Jobs
+                </label>
+                <label>
+                    <input type="radio" name="question1" data-points="0"> Jeff Bezos
+                </label>
+                <label>
+                    <input type="radio" name="question1" data-points="1"> Elon Musk
+                </label>
+                <label>
+                    <input type="radio" name="question1" data-points="0"> Donald Trump
+                </label>
+            </div>
+            <div class="question">
+                <p>Vad får muslimer inte äta?</p>
+                <label>
+                    <input type="radio" name="question2" data-points="1"> Gris Kött
+                </label>
+                <label>
+                    <input type="radio" name="question2" data-points="0"> Ko Kött
+                </label>
+                <label>
+                    <input type="radio" name="question2" data-points="0"> Får Kött
+                </label>
+                <label>
+                    <input type="radio" name="question2" data-points="0"> Lamm Kött
+                </label>
+            </div>
+            <div class="question">
+                <p>Vilken är inte en spelkonsol varumärke?</p>
+                <label>
+                    <input type="radio" name="question3" data-points="0"> Nintendo
+                </label>
+                <label>
+                    <input type="radio" name="question3" data-points="0"> Xbox
+                </label>
+                <label>
+                    <input type="radio" name="question3" data-points="0"> Playstation
+                </label>
+                <label>
+                    <input type="radio" name="question3" data-points="1"> DELL
+                </label>
+            </div>
+            
+            <button>Submit!</button>
+        </form>
+        <div class="result-box hidden">
+            <h2>Congratulations!</h2>
+            <p>You got 2/3 points right</p>
+            <button>Try again!</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
