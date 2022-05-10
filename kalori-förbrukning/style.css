@@ -26,13 +26,13 @@ h1 {
 h5 {
     margin: 0;
 }
-.grid31 {
+.grid1 {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 10px;
     align-items: center;
 }
-.grid11 {
+.grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
